@@ -1,0 +1,6 @@
+[plugin]
+name = "dokku-nginx-video"
+description = "A plugin for static websites, powered by nginx with video support"
+version = "0.1.0"
+website_url = "https://github.com/xvonabur/buildpack-nginx"
+[plugin.config]
