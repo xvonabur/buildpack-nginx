@@ -1,6 +1,6 @@
-# Dokku Buildpack: nginx
+# Dokku Buildpack: nginx with video support
 
-This is the official dokku buildpack for static websites, powered by nginx.
+This is fork of [official dokku buildpack](https://github.com/dokku/buildpack-nginx) for static websites, powered by nginx with video support.
 
 ## Usage
 
@@ -10,15 +10,7 @@ All static files that you want to serve should be in the root directory of your 
 
 To trigger detection of this buildpack you need to add a dotfile:
 
-Add an *empty* file called `.static` to your root directory of your web project (regardless if you use a custom value for NGINX_ROOT)
-
-### Heroku
-
-Heroku users can use this buildpack by running the following command:
-
-```
-heroku buildpacks:set https://github.com/dokku/buildpack-nginx.git
-```
+Add an *empty* file called `.static_with_custom_nginx` to your root directory of your web project (regardless if you use a custom value for NGINX_ROOT)
 
 ## Configuration
 
